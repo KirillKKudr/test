@@ -65,8 +65,8 @@ img{
     background-color: #FBFBFB;
     position: absolute;
     top: 20px;
-    left: 20px;
-    right: 20px;
+    left: 50px;
+    transform: translateX(-50);
     display: flex;
     padding: 7px 20px;
     align-items: center;
@@ -95,6 +95,6 @@ img{
 }
 
 .icon-burger{
-    fill: #1B414B;
+    stroke: #1B414B;
     display: block;
 }
