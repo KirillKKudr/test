@@ -87,8 +87,8 @@ img{
     align-items: center;
     border: 1px solid #FBFBFB;
     border-radius: 8px;
-    min-width: 320px;
-    max-width: 375px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .logo{
@@ -98,7 +98,6 @@ img{
     letter-spacing: -0.03em;
     text-align: left;
     color: #1B414B;
-    margin-right: 215px;
 }
 
 .nav-container{
@@ -137,9 +136,6 @@ img{
     .header-container{
      max-width: 704px;
      top: 32px;
-     align-items: center;
-     justify-content: space-between;
-     width: 100%;
     }
 
     .header-button{
@@ -160,9 +156,8 @@ img{
         gap: 8px;
     }
 
-    .logo{
-        margin-right: 0;
-    }
 }
+
+
 
 
