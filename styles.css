@@ -109,8 +109,10 @@ img{
 }
 
 .header-icon{
-    fill: #1B414B;
+    fill: #1b414b;
     display: block;
+    width: 20px;
+    height: 20px;
 }
 
 .nav-list-item{
@@ -136,7 +138,8 @@ img{
 }
 
 .icon-burger{
-    fill: #1B414B;
+    stroke-width: 2.5px;
+    stroke: #1b414b;
     display: block;
 }
 
