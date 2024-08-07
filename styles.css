@@ -100,7 +100,7 @@ img{
     color: #1B414B;
 }
 
-.nav-container{
+.header-nav{
     display: none;
 }
 
@@ -136,13 +136,14 @@ img{
     .header-container{
      max-width: 704px;
      top: 32px;
+     justify-content: space-between;
     }
 
     .header-button{
         display: none;
     }
 
-    .nav-container{
+    .header-nav{
         display: flex;
     }
 
