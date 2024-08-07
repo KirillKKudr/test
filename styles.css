@@ -109,7 +109,7 @@ img{
 }
 
 .header-icon{
-    fill: #1b414b;
+    fill: #1B414B;
     display: block;
     width: 20px;
     height: 20px;
@@ -139,7 +139,7 @@ img{
 
 .icon-burger{
     stroke-width: 2.5px;
-    stroke: #1b414b;
+    stroke:#1B414B ;
     display: block;
 }
 
@@ -188,6 +188,11 @@ img{
     .nav-list-item:hover,
     .nav-list-item:focus{
         background-color: #1B414B;
+    }
+
+    .header-icon:hover,
+    .header-icon:focus{
+        fill: #062730;
     }
 }
 
