@@ -87,9 +87,8 @@ img{
     padding: 7px 20px;
     align-items: center;
     border: 1px solid #FBFBFB;
-    border-radius: 8px;
+    border-radius: 8px; 
     justify-content: space-between;
-    width: 100%;
 }
 
 .logo{
@@ -147,6 +146,8 @@ img{
     .header-container{
      max-width: 704px;
      top: 32px;
+     justify-content: space-between;
+     width: 100%;
     }
 
     .header-button{
@@ -168,6 +169,23 @@ img{
         gap: 8px;
     }
 
+}
+
+
+@media screen and (min-width: 1280px) {
+    .header-container{
+     max-width: 1080px;
+     top: 32px;
+    }
+
+    .nav-list-item{
+        cursor: pointer;
+    }
+
+    .nav-list-item:hover,
+    .nav-list-item:focus{
+        background-color: #1B414B;
+    }
 }
 
 
