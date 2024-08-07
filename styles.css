@@ -89,5 +89,12 @@ img{
 }
 
 .header-button{
-   
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.icon-burger{
+    fill: #1B414B;
+    display: block;
 }
