@@ -50,6 +50,7 @@ img{
 
 
 .container{
+    min-width: 320px;
     max-width: 375px;
     padding: 0 16px;
     margin: 0 auto;
@@ -65,13 +66,15 @@ img{
     background-color: #FBFBFB;
     position: absolute;
     top: 20px;
-    left: 50px;
-    transform: translateX(-50);
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     padding: 7px 20px;
     align-items: center;
     border: 1px solid #FBFBFB;
     border-radius: 8px;
+    min-width: 320px;
+    max-width: 375px;
 }
 
 .logo{
