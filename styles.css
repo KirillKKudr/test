@@ -92,9 +92,9 @@ img{
 }
 
 .logo{
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 24.2px;
+    line-height: 16.94px;
     letter-spacing: -0.03em;
     text-align: left;
     color: #1B414B;
@@ -153,6 +153,14 @@ img{
      width: 100%;
     }
 
+    .logo{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24.2px;
+        letter-spacing: -0.03em;
+        text-align: left;
+    }
+
     .header-button{
         display: none;
     }
@@ -180,6 +188,7 @@ img{
      max-width: 1080px;
      top: 32px;
     }
+
 
     .nav-list-item{
         cursor: pointer;
