@@ -49,21 +49,21 @@ body {
 
 @keyframes marqueeLineLeft {
   from {
-    transform: translateX(0);
+    transform: translateX(12%);
   }
   
   to {
-    transform: translateX(-100%);
+    transform: translateX(-88%);
   }
 }
 
 @keyframes marqueeLineRight {
   from {
-    transform: translateX(-100%);
+    transform: translateX(-88%);
   }
   
   to {
-    transform: translateX(0);
+    transform: translateX(12%);
   }
 }
 
@@ -71,9 +71,7 @@ body {
   position: relative;
 }
 
-.dot {
-  position: relative; 
-}
+
 
 .dot::before {
   content: ""; 
