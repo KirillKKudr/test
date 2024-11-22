@@ -1,4 +1,13 @@
+body {
+  margin: 0;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+  
   .marquee {
     overflow: hidden;
     font-weight: 600;
@@ -8,10 +17,15 @@
   
   .marquee-left{
     background-color: #BCDFD1;
+    position: relative;
+    z-index: 1;
   }
   
   .marquee-right{
     background-color: #E4E5E6;
+    transform: rotate(2deg);
+    z-index: 2;
+    color: #00B068;
   }
   
   .marquee__inner {
@@ -24,8 +38,7 @@
     padding: 32px 0;
     min-width: 100%;
     white-space: nowrap;
-    animation-name: marqueeLine;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
   }
@@ -37,6 +50,10 @@
   .marquee__line-right{
     animation-name: marqueeLineRight;
   }
+
+  
+
+  
   
   @keyframes marqueeLineLeft {
     from {
@@ -123,9 +140,6 @@
 
   @media screen and (min-width: 1279px) {
 
-
-
-    
 
     @keyframes marqueeLineLeft {
       from {
