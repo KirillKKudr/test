@@ -121,7 +121,7 @@
   }
 
 
-  @media screen and (min-width: 1157px) {
+  @media screen and (min-width: 1279px) {
 
 
 
@@ -129,21 +129,21 @@
 
     @keyframes marqueeLineLeft {
       from {
-        transform: translateX(6%);
+        transform: translateX(0%);
       }
       
       to {
-        transform: translateX(-94%);
+        transform: translateX(-100%);
       }
     }
     
     @keyframes marqueeLineRight {
       from {
-        transform: translateX(-94%);
+        transform: translateX(-100%);
       }
       
       to {
-        transform: translateX(6%);
+        transform: translateX(0%);
       }
     }
     
