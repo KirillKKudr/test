@@ -1,18 +1,5 @@
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    } 
-}
 
-@media screen and (min-width: 1158px) {
-    .container {
-        max-width: 1158px;
-        padding: 0 15px;
-    } 
-}
-
-
-.marquee {
+  .marquee {
     overflow: hidden;
     font-weight: 600;
     font-size: 34px;
@@ -34,7 +21,7 @@
   .marquee__line {
     flex-shrink: 0;
     margin: 0;
-    padding: 40px 0;
+    padding: 32px 0;
     min-width: 100%;
     white-space: nowrap;
     animation-name: marqueeLine;
@@ -53,21 +40,21 @@
   
   @keyframes marqueeLineLeft {
     from {
-      transform: translateX(6%);
+      transform: translateX(0%);
     }
     
     to {
-      transform: translateX(-94%);
+      transform: translateX(-100%);
     }
   }
   
   @keyframes marqueeLineRight {
     from {
-      transform: translateX(-94%);
+      transform: translateX(-100%);
     }
     
     to {
-      transform: translateX(6%);
+      transform: translateX(0%);
     }
   }
   
@@ -97,13 +84,67 @@
   }
 
 
-  @media screen and (min-width: 768px) {
+
+
+  @media screen and (min-width: 767px) {
+
 
     .marquee__line{
       padding: 40px 0;
       font-size: 32px;
       line-height: 133%;
       letter-spacing: 0.01em;
+    }
+
+    
+
+    @keyframes marqueeLineLeft {
+      from {
+        transform: translateX(0%);
+      }
+      
+      to {
+        transform: translateX(-100%);
+      }
+    }
+    
+    @keyframes marqueeLineRight {
+      from {
+        transform: translateX(-100%);
+      }
+      
+      to {
+        transform: translateX(0%);
+      }
+    }
+    
+  }
+
+
+  @media screen and (min-width: 1157px) {
+
+
+
+    
+
+    @keyframes marqueeLineLeft {
+      from {
+        transform: translateX(6%);
+      }
+      
+      to {
+        transform: translateX(-94%);
+      }
+    }
+    
+    @keyframes marqueeLineRight {
+      from {
+        transform: translateX(-94%);
+      }
+      
+      to {
+        transform: translateX(6%);
+      }
     }
     
   }
